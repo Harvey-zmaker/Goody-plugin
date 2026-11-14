@@ -1,0 +1,30 @@
+name: TpTools
+version: '${version}'
+main: dev.tptools.TpToolsPlugin
+api-version: '26.2'
+description: Admin teleport tools (/tp, /tphere, /back) for Java and Bedrock players
+
+commands:
+  tp:
+    description: Teleport to a player, or teleport one player to another
+    usage: /tp <player> [target]
+    permission: tptools.tp
+  tphere:
+    description: Teleport a player to you
+    usage: /tphere <player>
+    permission: tptools.tphere
+  back:
+    description: Return to your location before your last teleport
+    usage: /back
+    permission: tptools.back
+
+permissions:
+  tptools.tp:
+    description: Use /tp
+    default: op
+  tptools.tphere:
+    description: Use /tphere
+    default: op
+  tptools.back:
+    description: Use /back (and have back locations recorded)
+    default: op

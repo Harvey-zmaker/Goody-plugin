@@ -1,0 +1,18 @@
+# Messages use MiniMessage formatting: https://docs.advntr.dev/minimessage/format.html
+# Placeholders: {player}, {target}, {input}
+# Restart the server after editing this file.
+
+prefix: "<gray>[<aqua>TpTools</aqua>]</gray> "
+
+messages:
+  player-only: "<red>Only players can use this command."
+  player-not-found: "<red>Player <white>{input}</white> is not online."
+  same-player: "<red>You can't teleport a player to themselves."
+  usage-tp: "<yellow>Usage: /tp <player> [target]"
+  usage-tphere: "<yellow>Usage: /tphere <player>"
+  teleported-to: "<green>Teleported to <white>{target}</white>."
+  teleported-other: "<green>Teleported <white>{player}</white> to <white>{target}</white>."
+  you-were-teleported: "<yellow>You were teleported to <white>{target}</white>."
+  brought: "<green>Brought <white>{player}</white> to you."
+  back-success: "<green>Returned to your previous location."
+  no-back: "<red>You have no previous location to return to."
